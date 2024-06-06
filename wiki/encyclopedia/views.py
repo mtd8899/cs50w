@@ -1,6 +1,6 @@
 from decouple import config
 from django.shortcuts import render, redirect
-from markdown import Markdown
+from markdown2 import Markdown
 from random import choice 
 from . import util
 
