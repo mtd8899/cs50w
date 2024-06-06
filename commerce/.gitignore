@@ -1,0 +1,87 @@
+@"
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.venv.bak/
+
+# Install directories should be ignored
+pip-wheel-metadata/
+wheels/
+
+# pyenv
+.python-version
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# If your database lives in the project directory:
+db.sqlite3
+*.sqlite3
+
+# Django migrations
+*/migrations/*
+
+# Local settings
+settings_local.py
+
+# Media and static files
+media/
+staticfiles/
+
+# Ignore the .env file where you store your environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sphinx documentation
+docs/_build/
+
+# pytest
+.cache
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.manifest
+*.app
+
+# Linux
+*.swp
+"@ | Out-File -FilePath .gitignore -Encoding utf8
