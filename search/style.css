@@ -1,0 +1,115 @@
+nav {
+    position: left;
+}
+
+nav a {
+    text-decoration: none;
+    float: right;
+    padding: 8px;
+    color: rgb(48, 37, 37);
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+body {
+    display: grid;
+    align-items: center;
+    min-width: 400px;
+}
+
+div .grid_item {
+    margin: 8px;
+    text-align: center ;
+}
+
+.logo {
+    text-align: center;
+}
+
+#google_logo {
+    margin-top: 100px;
+    width: 272px;
+    height: 92px;
+}
+
+#google_image_logo {
+    margin-top: 100px;
+    width: 272px;
+    height: 92px;
+}
+
+#search_icon {
+    width: 20px;
+    text-align: center;
+    padding-left: 5px;
+
+}
+
+#mic_icon {
+    width: 35px;
+}
+
+#input_search {
+    font-size: 18px;
+    padding: 12px;
+    padding-left: 6px;
+    border-radius: 30px;
+    width: 500px;
+    border: none;
+    outline: none;
+}
+
+.input-container {
+    display: grid;
+    align-content: center;
+    justify-content: center; 
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 40px;
+    width: 500px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: rgb(167, 155, 155) solid 1px;   
+}
+
+.input-field:hover {
+    box-shadow: 1px 1px 4px 2px rgb(185, 181, 181);
+}
+
+input[type=submit] {
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    margin: 11px 4px;
+    padding: 10px 16px;
+    border: none;
+    background-color: rgba(241, 237, 237, 0.74);
+}
+
+input[type=submit]:hover {
+    border: 1px solid rgb(167, 155, 155);
+    border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    #input_search {
+        width: 95%;
+    }
+
+    .input-field {
+        width: 95%;
+    }
+}
+
+h3 {
+    color: red;
+    text-align: left;
+}
